@@ -1,12 +1,7 @@
 $(function(){
-
-    $(window).scroll(function(){
-        let scrollTop =$(document).scrollTop();
-
-        if(scrollTop > 500){
-            $('.arrow').fadeIn();
-        } else{
-            $('.arrow').fadeOut();
-        }
-    })
-})
+    $("span").hover(function(){
+        $(this).css("color", "yellow");
+    }), function(){
+        $(this).css("color", "");
+    }
+});
