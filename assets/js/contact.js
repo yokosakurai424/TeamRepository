@@ -1,7 +1,3 @@
 $(function(){
-    $("span").hover(function(){
-        $(this).css("color", "yellow");
-    }), function(){
-        $(this).css("color", "");
-    }
+    $('.CONTACT').hide().fadeIn(1500);
 });
