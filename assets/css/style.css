@@ -2,33 +2,46 @@ header {
 
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
+    width: 100%;
     height: 100px;
     padding: 20px;
+    position: fixed;
 }
 
-header img {
+/* .header-left {
+
+} */
+
+.header-left img {
 
     height: 80px;
+    margin-left: 30px;
+    /* align-items: center; */
+    /* margin-left: 60px; */
 }
 
-.hambaurger {
+.header-right {
 
+    align-items: center;
+    margin:  auto 0;
     width: 60px;
     height: 30px;
-    margin:   auto;
-    padding-left: 450px;
+    margin-right: 30px;
+    /* margin-left: 500px; */
 }
 
-.hambaurger span {
+
+.header-right span {
 
     position: relative;
     display: block;
+    color: white;
+
 }
 
-.hambaurger span,
-.hambaurger span::before,
-.hambaurger span::after {
+.header-right span,
+.header-right span::before,
+.header-right span::after {
 
     width: 50px;
     height: 5px;
@@ -37,24 +50,24 @@ header img {
     transition: all 1s ease;
 }
 
-.hambaurger span::before,
-.hambaurger span::after {
+.header-right span::before,
+.header-right span::after {
 
     content: "";
     position: absolute;
 }
 
-.hambaurger span::before {
+.header-right span::before {
 
     top: -9px;
 }
 
 
-.hambaurger span::after {
+.header-right span::after {
 
     top: 9px;
 }
-
+/* 
 .hambaurger:hover span {
 
     background-color: transparent;
@@ -69,15 +82,11 @@ header img {
 .hambaurger:hover span::after {
 
     transform: rotate(-45deg) translate(7px, -8px);
-}
+} */
 
 .section1 {
-/* 
-    width: 100%;
-    height: 100vh;
-    background-color: blSack; */
     
-    /* width: 100%; */
+    width: 100%;
     height: 100vh;
     object-fit: cover;
     background-image: url("../../img/SnekoDSC03810_TP_V.jpg");
@@ -85,22 +94,186 @@ header img {
     background-size: cover;
     background-position: center;
 }
-/* 
-.section1 image {
+
+.section1 {
+
+    display: flex;
+    /* margin: auto 0; */
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 img {
+
     height: 150px;
-    width: 180px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
-/* 
-.section2 {
+    width: 150px;
+    
+}
+
+
+.image {
+
+    display: flex;
+    justify-content: space-around;
+    /* height: 300px; */
+    
+}
+
+.image a {
+
+    text-align: center; 
+    /* padding-top: 200px; */
+}
+
+.image a:first-child {
+
+    background-image: url("../../img/YAMAyamasha-06_TP_V4\ \(1\).jpg");
+    height: 300px;
     width: 100%;
-    height: 100vh;
-    background-color: rgb(0, 0, 0);
-} */
-/* 
-.section2 img {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image a:nth-child(2) {
+
+    background-image: url("../../img/MIYADSC_3425-3_TP_V4\ \(1\).jpg");
+    height: 300px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image a:last-child {
+
+    background-image: url("../../img/ipadIMGL1133_TP_V4.jpg");
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+
     height: 100vh;
-} */
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+
+footer img {
+
+    height: 100px;
+    width:100px;
+    padding-bottom: 80px;
+  
+}
+
+.download {
+
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: gray;
+    border: solid 2px gray;
+    border-radius: 3px;
+    transition: .4s; 
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.download:hover {
+
+    background: gray;
+    color: white;
+}
+
+.reservation {
+
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: gray;
+    border: solid 2px gray;
+    border-radius: 3px;
+    transition: .4s; 
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.reservation:hover {
+
+    background: gray;
+    color: white;
+}
+
+.download i {
+
+    padding-right: 20px;
+}
+
+.reservation i {
+
+    padding-right: 20px;
+}
+
+.icon {
+
+    margin-top: 150px;
+}
+
+.icon i:first-child {
+
+    margin: 20px;
+}
+
+.icon i:nth-child(2) {
+
+    margin: 20px;
+}
+
+.icon i:nth-child(3) {
+
+    margin: 20px;
+}
+
+.icon i:last-child {
+
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    
+.image {
+
+    flex-direction: column;
+    
+}
+
+footer {
+
+    flex-direction: column;
+
+}
+
+
+}
