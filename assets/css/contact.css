@@ -102,7 +102,8 @@ a {
     -webkit-font-smoothing: subpixel-antialiased;
     margin: auto;
 }
-/*  */
+
+
 .cp_cont .CONTACT{
     height: 60vh;
     padding: 200px;
@@ -119,6 +120,8 @@ a {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
+
+/* コンタクトフォーム */
 .contact-form{
     height: 80vh;
     background-color: white;
@@ -151,7 +154,8 @@ input{
     height: 45px;
 }
 
-.button{
+.button{display: flex;
+    justify-content: center;
     display: inline-block;
     border-radius: 5%;
     font-size: 10pt;
@@ -166,6 +170,7 @@ input{
     transition: .3s;
     box-shadow: 3px 4px 3px #D2B48C;
     border: 2px solid tan;
+    align-items: center;
 }
 
 .button:hover{
@@ -174,32 +179,110 @@ input{
     background: #666666;
 }
 
-.section3{
+
+
+footer {
+
     height: 100vh;
-    background-color: #343a40;
-}
-
-.logo{
+    background-color: #343a40;;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 100px;
-}
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+ }
+ 
 
-button{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: inherit;
-    line-height: inherit;
-    border-radius: 0;
-}
-
-.arrow{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: white;
-    cursor: pointer;
-    display: none;
-    border-radius: 30px;
-}
+ .download {
+    background-color: #343a40;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: white;
+    border: solid 2px gray;
+    border-radius: 3px;
+    transition: .4s;
+    margin-right: 50px;
+    font-size: 20px;
+ }
+ 
+ .download:hover {
+ 
+    background: white;
+    color: #343a40;
+ }
+ 
+ .reservation {
+    background-color: #343a40;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color:white;
+    border: solid 2px gray;
+    border-radius: 3px;
+    transition: .4s;
+    margin-left: 50px;
+    font-size: 20px;
+ 
+ }
+ 
+ .reservation:hover {
+ 
+    background: white;
+    color: #343a40;;
+ }
+ 
+ .download i {
+ 
+    padding-right: 20px;
+ }
+ 
+ .reservation i {
+ 
+    padding-right: 20px;
+ }
+ 
+ .icon {
+ 
+    margin-top: 150px;
+ }
+ 
+ .icon i:first-child {
+ 
+    margin: 20px;
+ }
+ 
+ .icon i:nth-child(2) {
+ 
+    margin: 20px;
+ }
+ 
+ .icon i:nth-child(3) {
+ 
+    margin: 20px;
+ }
+ 
+ .icon i:last-child {
+ 
+    margin: 20px;
+ }
+ 
+ 
+ @media screen and (max-width: 600px) {
+ 
+ 
+ .image {
+ 
+    flex-direction: column;
+ 
+ }
+ 
+ footer {
+ 
+    flex-direction: column;
+ 
+ }
+ 
+ 
+ }

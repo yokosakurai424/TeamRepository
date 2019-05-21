@@ -175,105 +175,105 @@ footer {
     justify-content: center;
     text-align: center;
     /* flex-wrap: wrap; */
-}
-
-footer img {
-
+ }
+ 
+ footer img {
+ 
     height: 100px;
     width:100px;
     padding-bottom: 80px;
-  
-}
-
-.download {
-
+ 
+ }
+ 
+ .download {
+ 
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
     color: gray;
     border: solid 2px gray;
     border-radius: 3px;
-    transition: .4s; 
+    transition: .4s;
     margin-right: 50px;
     font-size: 20px;
-}
-
-.download:hover {
-
+ }
+ 
+ .download:hover {
+ 
     background: gray;
     color: white;
-}
-
-.reservation {
-
+ }
+ 
+ .reservation {
+ 
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
     color: gray;
     border: solid 2px gray;
     border-radius: 3px;
-    transition: .4s; 
+    transition: .4s;
     margin-left: 50px;
     font-size: 20px;
-
-}
-
-.reservation:hover {
-
+ 
+ }
+ 
+ .reservation:hover {
+ 
     background: gray;
     color: white;
-}
-
-.download i {
-
+ }
+ 
+ .download i {
+ 
     padding-right: 20px;
-}
-
-.reservation i {
-
+ }
+ 
+ .reservation i {
+ 
     padding-right: 20px;
-}
-
-.icon {
-
+ }
+ 
+ .icon {
+ 
     margin-top: 150px;
-}
-
-.icon i:first-child {
-
+ }
+ 
+ .icon i:first-child {
+ 
     margin: 20px;
-}
-
-.icon i:nth-child(2) {
-
+ }
+ 
+ .icon i:nth-child(2) {
+ 
     margin: 20px;
-}
-
-.icon i:nth-child(3) {
-
+ }
+ 
+ .icon i:nth-child(3) {
+ 
     margin: 20px;
-}
-
-.icon i:last-child {
-
+ }
+ 
+ .icon i:last-child {
+ 
     margin: 20px;
-}
-
-
-@media screen and (max-width: 600px) {
-
-    
-.image {
-
+ }
+ 
+ 
+ @media screen and (max-width: 600px) {
+ 
+ 
+ .image {
+ 
     flex-direction: column;
-    
-}
-
-footer {
-
+ 
+ }
+ 
+ footer {
+ 
     flex-direction: column;
-
-}
-
-
-}
+ 
+ }
+ 
+ 
+ }
