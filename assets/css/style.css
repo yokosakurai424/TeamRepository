@@ -67,22 +67,6 @@ header {
 
     top: 9px;
 }
-/* 
-.hambaurger:hover span {
-
-    background-color: transparent;
-}
-
-.hambaurger:hover span::before {
-
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-
-.hambaurger:hover span::after {
-
-    transform: rotate(-45deg) translate(7px, -8px);
-} */
 
 .section1 {
     
@@ -93,15 +77,18 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.section1 {
-
+    
     display: flex;
     /* margin: auto 0; */
     align-items: center;
     justify-content: center;
 }
+
+.section1 {
+
+}
+
+
 
 .section1 img {
 
@@ -137,6 +124,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+
 }
 
 .image a:nth-child(2) {
