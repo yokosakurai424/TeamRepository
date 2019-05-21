@@ -1,135 +1,40 @@
-/* Menu */
-*, *:before, *:after {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-ol, ul {
-	list-style: none;
-}
-a {
-	text-decoration: none;
-	color: black;
-}
-.cp_cont {
-    height: 110vh;
-    background-color: #948051;
-}
-.cp_offcm04 {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	display: inline-block;
-}
-/* menu */
-.cp_offcm04 .cp_menu {
-	position: fixed;
-	top: 0;
-	left: -100vw;
-	width: 250px;
-	height: 100vh;
-	cursor: pointer;
-	-webkit-transition: 0.53s transform;
-	        transition: 0.53s transform;
-	-webkit-transition-timing-function: cubic-bezier(.38,.52,.23,.99);
-	        transition-timing-function: cubic-bezier(.38,.52,.23,.99);
-	background-color: white;
-	opacity: 0.8;
-}
-.cp_offcm04 .cp_menu ul {
-	margin: 0;
-	padding: 0;
-}
-.cp_offcm04 .cp_menu li {
-	list-style: none;
-}
-.cp_offcm04 .cp_menu li a {
-    margin-top: 30px;
-	display: block;
-	padding: 20px;
-	text-decoration: none;
-	color: black;
-    border-bottom: 1px solid #ffffff;
-    letter-spacing: 10px;
+.bg1{
+    background: url(../../img/Fotolia_154830442_Subscription_Monthly_M-1024x682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
 }
 
-.cp_offcm04 #cp_toggle04 {
-	position: absolute;
-	display: none;
-	opacity: 0;
-}
-.cp_offcm04 #cp_toggle04:checked ~ .cp_menu {
-	-webkit-transform: translateX(100vw);
-	        transform: translateX(100vw);
-}
-/* menu toggle */
-.cp_offcm04 #cp_toggle04 ~ label {
-	display: block;
-	padding: 0.5em;
-	cursor: pointer;
-	-webkit-transition: 0.5s transform;
-	        transition: 0.5s transform;
-	-webkit-transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
-	        transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
-	text-align: center;
-	color: #333333;
-}
-.cp_offcm04 #cp_toggle04:checked ~ label {
-	-webkit-transform: translateX(250px);
-	        transform: translateX(250px);
-}
-.cp_offcm04 #cp_toggle04 ~ label::before {
-	font-family: 'FontAwesome';
-	content: '\f0c9';
-	font-size: 2em
-}
-.cp_offcm04 #cp_toggle04:checked ~ label::before {
-	content: '\f00d';
-}
-
-.cp_cont .CONTACT{
-    height: 60vh;
-    padding: 200px;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    font-size: 1.8em;
-    margin: auto;
-    letter-spacing: .5em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    display: none;
-    align-items: center;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
-
-/* footer */
-.section3{
-    height: 100vh;
-    background-color: #343a40;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text{
+    width: 300px;
+    height: 300px;
     padding: 100px;
 }
 
-button{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: inherit;
-    line-height: inherit;
-    border-radius: 0;
+.bg2{
+    background: url(../../img/sinrin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
 }
 
-.arrow{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: white;
-    cursor: pointer;
-    display: none;
-    border-radius: 30px;
+h1{
+    padding: 100px;
+    font-size: 100px;
+    color: white;
+}
+
+.muon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    color: white;
+    font-size: 50px;
+    padding: 30px;
 }
