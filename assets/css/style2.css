@@ -3,6 +3,7 @@ body {
     background-size: cover; 
 }
 
+/* header */
 .header{
     color: white;
     display: flex;
@@ -28,13 +29,6 @@ body {
     padding-left: 10px;
 }
 
-/* .right{
-    cursor: pointer;
-    margin-right: 30px;
-    padding-right: 40px;
-    border-bottom: 2px solid white;
-} */
-
 .right:before {
     cursor: pointer;
 	content: "";
@@ -46,9 +40,10 @@ body {
 
 .right:hover {
     border-bottom: 1px solid pink;
-    /* background-color: red; */
 }
 
+
+/* menu */
 .list{
     color: white;
     margin: 120px 50px 50px 30px;
