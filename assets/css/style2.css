@@ -77,7 +77,12 @@ li span {
     cursor: pointer;
 }
 
-a{
+.main-a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-a{
     text-decoration: none;
     color: gray;
 }
