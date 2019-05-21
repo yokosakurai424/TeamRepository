@@ -3,6 +3,7 @@ body {
     background-size: cover; 
 }
 
+/* header */
 .header{
     color: white;
     display: flex;
@@ -28,28 +29,32 @@ body {
     padding-left: 10px;
 }
 
-.right{
+.right:before {
     cursor: pointer;
-    margin-right: 30px;
-    padding-right: 40px;
-    border-bottom: 2px solid white;
-}
+	content: "";
+	display: block;
+	border-bottom: 1px solid #fff;
+    width: 35px;
+    margin-right: 10px;
+};
 
 .right:hover {
-    border-bottom: pink;
-    /* background-color: red; */
+    border-bottom: 1px solid pink;
 }
 
+
+/* menu */
 .list{
     color: white;
     margin: 120px 50px 50px 30px;
     padding: 50px;
-    animation: anime 4s ease-in;
+    animation: anime 2s ease-in;
 }
 
 .menu{
     list-style: none;
     letter-spacing: 15px;
+    display: inline-block;
 }
 
 .menu li {
@@ -70,6 +75,11 @@ body {
 
 li span {
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
 }
 
 @keyframes anime {

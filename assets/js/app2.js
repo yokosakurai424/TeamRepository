@@ -1,13 +1,14 @@
 $(function() {
 
     $(".textanime").textFx({
-        type: "rotate", iChar: "50", iAnim: "1000"
+        type: "rotate", iChar: "20", iAnim: "1000"
     });
 
-    $("span").hover(function() {
+    $(".textanime").hover(function() {
         $(this).css("color", "yellow");
     }, function() {
         $(this).css("color", "");
     })
     
+
 });
