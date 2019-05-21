@@ -259,6 +259,19 @@ footer {
     margin: 20px;
  }
  
+.arrow {
+
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    filter: drop-shadow(8px 8px 8px rgba(0,0,0,0,.6));
+    cursor: pointer;
+    display: none;
+
+}
+
  
  @media screen and (max-width: 600px) {
  
