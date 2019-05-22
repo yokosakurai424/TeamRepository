@@ -48,7 +48,7 @@ body {
     color: white;
     margin: 120px 50px 50px 30px;
     padding: 50px;
-    animation: anime 2s ease-in;
+    /* animation: anime 1s ease-in; */
 }
 
 .menu{
