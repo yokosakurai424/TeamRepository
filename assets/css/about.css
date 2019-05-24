@@ -132,5 +132,9 @@ li {
 .muon p{
     font-size: 17px;
     padding: 10px;
+    /* display: none; */
+}
+
+.detail {
     display: none;
 }

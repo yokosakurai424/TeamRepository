@@ -57,6 +57,11 @@
 
 $(function() {
     $(".button").on("click", function() {
-        $(this).toggleClass("bg02").next().slideToggle();
+        // クリックされたボタンの親で一番近い.menuを取得
+        // .menuの次にある要素をスライドアップ・ダウン
+        // <ul class="menu"></ul>
+        // <div class="detail"></div>　←　こいつをスライドアップ・ダウン
+
+        $(this).closest('.menu').next().slideToggle();
     })
 })
